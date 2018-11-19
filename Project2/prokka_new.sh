@@ -1,7 +1,6 @@
 #!/bin/bash
 #prokka_new.sh
 
-: <<'END_COMMENT'
 #Prepwork for analyses
 cd ~
 mkdir project2
@@ -28,13 +27,13 @@ done
 
 #Concatenate all of the .faa and .fna outputs for KAAS and indexing
 
-#cat project2/prokka_output/*/MAG*.faa >> project2/prokka_cat/allMAGs.faa
-#cat project2/prokka_output/*/MAG*.fna >> project2/prokka_cat/allMAGs.fna
+cat project2/prokka_output/*/MAG*.faa >> project2/prokka_cat/allMAGs.faa
+cat project2/prokka_output/*/MAG*.fna >> project2/prokka_cat/allMAGs.fna
 
 #Index the concatenated reference for the metatranscriptome analysis
 
-#bwa index -p ~/project2/BWA_output/allMAGs_index \
-#/project2/prokka_cat/allMAGs.fna
+bwa index -p ~/project2/BWA_output/allMAGs_index \
+/project2/prokka_cat/allMAGs.fna
 
 echo done indexing allMAGs... 
 
@@ -50,8 +49,6 @@ do
 	2>~/project2/BWA_output/${cruise}_allMAGs_log.txt 
 	echo done aligning ${cruise}
 done
-
-END_COMMENT
 
 #Normalization using RPKM
 
