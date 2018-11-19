@@ -1,0 +1,594 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+EAKAMJKC_00001	CDS	1251				hypothetical protein
+EAKAMJKC_00002	CDS	996			COG0391	Gluconeogenesis factor
+EAKAMJKC_00003	CDS	420	bltD	2.3.1.57	COG0454	Spermine/spermidine acetyltransferase
+EAKAMJKC_00004	CDS	1827	glmS	2.6.1.16	COG0449	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]
+EAKAMJKC_00005	CDS	729				hypothetical protein
+EAKAMJKC_00006	CDS	1140	pfp	2.7.1.90	COG0205	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase
+EAKAMJKC_00007	CDS	1068				hypothetical protein
+EAKAMJKC_00008	CDS	846	cugP	2.7.7.9		UTP--glucose-1-phosphate uridylyltransferase
+EAKAMJKC_00009	CDS	405	gpt	2.4.2.22		Xanthine phosphoribosyltransferase
+EAKAMJKC_00010	rRNA	109				5S ribosomal RNA
+EAKAMJKC_00011	rRNA	3131				23S ribosomal RNA
+EAKAMJKC_00012	CDS	342				hypothetical protein
+EAKAMJKC_00013	CDS	312				hypothetical protein
+EAKAMJKC_00014	CDS	456				hypothetical protein
+EAKAMJKC_00015	tRNA	85				tRNA-Leu(tag)
+EAKAMJKC_00016	CDS	1956		3.4.21.50		Protease 1
+EAKAMJKC_00017	CDS	153				hypothetical protein
+EAKAMJKC_00018	tRNA	86				tRNA-Leu(taa)
+EAKAMJKC_00019	tRNA	77				tRNA-Gly(gcc)
+EAKAMJKC_00020	CDS	174				hypothetical protein
+EAKAMJKC_00021	CDS	237				hypothetical protein
+EAKAMJKC_00022	CDS	792	suhB	3.1.3.11	COG0483	Fructose-1,6-bisphosphatase/inositol-1-monophosphatase
+EAKAMJKC_00023	CDS	564				hypothetical protein
+EAKAMJKC_00024	CDS	627				hypothetical protein
+EAKAMJKC_00025	CDS	501				hypothetical protein
+EAKAMJKC_00026	CDS	879				hypothetical protein
+EAKAMJKC_00027	CDS	561	glnD	3.1.4.-		Bifunctional uridylyltransferase/uridylyl-removing enzyme
+EAKAMJKC_00028	CDS	663				hypothetical protein
+EAKAMJKC_00029	CDS	606				hypothetical protein
+EAKAMJKC_00030	CDS	846	nfo	3.1.21.2	COG0648	putative endonuclease 4
+EAKAMJKC_00031	CDS	1281	tig	5.2.1.8	COG0544	Trigger factor
+EAKAMJKC_00032	CDS	1995	hppA	3.6.1.1	COG3808	K(+)-insensitive pyrophosphate-energized proton pump
+EAKAMJKC_00033	CDS	1290	nusA		COG0195	Transcription termination/antitermination protein NusA
+EAKAMJKC_00034	CDS	996				hypothetical protein
+EAKAMJKC_00035	CDS	399				hypothetical protein
+EAKAMJKC_00036	CDS	561	ubiE_1	2.1.1.163		Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE
+EAKAMJKC_00037	CDS	1251	gdhA	1.4.1.3	COG0334	Glutamate dehydrogenase
+EAKAMJKC_00038	CDS	321	trxA		COG0526	Thioredoxin
+EAKAMJKC_00039	CDS	150				hypothetical protein
+EAKAMJKC_00040	CDS	906	trxB	1.8.1.9	COG0492	Thioredoxin reductase
+EAKAMJKC_00041	tRNA	77				tRNA-Ala(ggc)
+EAKAMJKC_00042	tRNA	75				tRNA-Arg(cct)
+EAKAMJKC_00043	CDS	141				hypothetical protein
+EAKAMJKC_00044	CDS	393				hypothetical protein
+EAKAMJKC_00045	CDS	762	dagK	2.7.1.107	COG1597	Diacylglycerol kinase
+EAKAMJKC_00046	tRNA	74				tRNA-Asn(gtt)
+EAKAMJKC_00047	CDS	267				hypothetical protein
+EAKAMJKC_00048	CDS	717	yidC2		COG0706	Membrane protein insertase YidC 2
+EAKAMJKC_00049	CDS	237	yidD		COG0759	Putative membrane protein insertion efficiency factor
+EAKAMJKC_00050	CDS	342	rnpA	3.1.26.5		Ribonuclease P protein component
+EAKAMJKC_00051	CDS	138	rpmH		COG0230	50S ribosomal protein L34
+EAKAMJKC_00052	CDS	1365	dnaA		COG0593	Chromosomal replication initiator protein DnaA
+EAKAMJKC_00053	CDS	1110	dnaN			Beta sliding clamp
+EAKAMJKC_00054	CDS	222				hypothetical protein
+EAKAMJKC_00055	CDS	2946	pbpG_1		COG0744	Penicillin-binding protein 2D
+EAKAMJKC_00056	CDS	573				hypothetical protein
+EAKAMJKC_00057	CDS	1194	tyrS	6.1.1.1	COG0162	Tyrosine--tRNA ligase
+EAKAMJKC_00058	CDS	657				hypothetical protein
+EAKAMJKC_00059	CDS	489	ruvC	3.1.22.4	COG0817	Crossover junction endodeoxyribonuclease RuvC
+EAKAMJKC_00060	CDS	705			COG0217	putative transcriptional regulatory protein
+EAKAMJKC_00061	CDS	1026	pgi	5.3.1.9		Glucose-6-phosphate isomerase
+EAKAMJKC_00062	CDS	981				hypothetical protein
+EAKAMJKC_00063	CDS	1920				hypothetical protein
+EAKAMJKC_00064	CDS	408				hypothetical protein
+EAKAMJKC_00065	CDS	978				hypothetical protein
+EAKAMJKC_00066	CDS	669				hypothetical protein
+EAKAMJKC_00067	CDS	372				hypothetical protein
+EAKAMJKC_00068	CDS	510				hypothetical protein
+EAKAMJKC_00069	CDS	546				hypothetical protein
+EAKAMJKC_00070	CDS	672				hypothetical protein
+EAKAMJKC_00071	CDS	414				hypothetical protein
+EAKAMJKC_00072	CDS	390				hypothetical protein
+EAKAMJKC_00073	CDS	396				hypothetical protein
+EAKAMJKC_00074	CDS	756				hypothetical protein
+EAKAMJKC_00075	CDS	1374			COG1653	putative ABC transporter-binding protein
+EAKAMJKC_00076	CDS	864	gtaB	2.7.7.9	COG1210	UTP--glucose-1-phosphate uridylyltransferase
+EAKAMJKC_00077	CDS	1488				hypothetical protein
+EAKAMJKC_00078	CDS	525	ylaC			RNA polymerase sigma factor YlaC
+EAKAMJKC_00079	tRNA	90				tRNA-Ser(cga)
+EAKAMJKC_00080	CDS	366				hypothetical protein
+EAKAMJKC_00081	CDS	1419				hypothetical protein
+EAKAMJKC_00082	CDS	546				hypothetical protein
+EAKAMJKC_00083	CDS	429				hypothetical protein
+EAKAMJKC_00084	CDS	408				hypothetical protein
+EAKAMJKC_00085	CDS	1014	recA		COG0468	Protein RecA
+EAKAMJKC_00086	CDS	687				hypothetical protein
+EAKAMJKC_00087	CDS	2310	spoIIIE		COG1674	DNA translocase SpoIIIE
+EAKAMJKC_00088	CDS	3906	rpoC	2.7.7.6	COG0086	DNA-directed RNA polymerase subunit beta'
+EAKAMJKC_00089	CDS	3411	rpoB	2.7.7.6	COG0085	DNA-directed RNA polymerase subunit beta
+EAKAMJKC_00090	CDS	1287	murE	6.3.2.13	COG0769	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase
+EAKAMJKC_00091	CDS	348				hypothetical protein
+EAKAMJKC_00092	CDS	717	rmlA	2.7.7.24	COG1209	Glucose-1-phosphate thymidylyltransferase
+EAKAMJKC_00093	CDS	984	femX	2.3.2.16	COG2348	Lipid II:glycine glycyltransferase
+EAKAMJKC_00094	CDS	582	ruvA	3.6.4.12	COG0632	Holliday junction ATP-dependent DNA helicase RuvA
+EAKAMJKC_00095	CDS	912				hypothetical protein
+EAKAMJKC_00096	CDS	2037	uvrB		COG0556	UvrABC system protein B
+EAKAMJKC_00097	CDS	1530				hypothetical protein
+EAKAMJKC_00098	CDS	1119	truB	5.4.99.25	COG0130	tRNA pseudouridine synthase B
+EAKAMJKC_00099	CDS	492				hypothetical protein
+EAKAMJKC_00100	CDS	246				hypothetical protein
+EAKAMJKC_00101	CDS	465				hypothetical protein
+EAKAMJKC_00102	CDS	270	rpsT		COG0268	30S ribosomal protein S20
+EAKAMJKC_00103	CDS	951	yqeN		COG1466	putative protein YqeN
+EAKAMJKC_00104	CDS	576	tag	3.2.2.20	COG2818	DNA-3-methyladenine glycosylase 1
+EAKAMJKC_00105	CDS	459				hypothetical protein
+EAKAMJKC_00106	CDS	2745	polA	2.7.7.7	COG0258	DNA polymerase I
+EAKAMJKC_00107	CDS	492	rutB	3.5.1.110		Peroxyureidoacrylate/ureidoacrylate amidohydrolase RutB
+EAKAMJKC_00108	CDS	372				hypothetical protein
+EAKAMJKC_00109	tRNA	75				tRNA-Cys(gca)
+EAKAMJKC_00110	CDS	558				hypothetical protein
+EAKAMJKC_00111	CDS	318	atl		COG3695	DNA base-flipping protein
+EAKAMJKC_00112	tRNA	76				tRNA-Gly(tcc)
+EAKAMJKC_00113	tRNA	77				tRNA-Pro(tgg)
+EAKAMJKC_00114	CDS	966	yrbG		COG0530	Inner membrane protein YrbG
+EAKAMJKC_00115	CDS	354				hypothetical protein
+EAKAMJKC_00116	tRNA	77				tRNA-Ile(gat)
+EAKAMJKC_00117	tRNA	75				tRNA-Phe(gaa)
+EAKAMJKC_00118	rRNA	1485				16S ribosomal RNA
+EAKAMJKC_00119	CDS	762				hypothetical protein
+EAKAMJKC_00120	CDS	642	trmD	2.1.1.228		tRNA (guanine-N(1)-)-methyltransferase
+EAKAMJKC_00121	CDS	321				hypothetical protein
+EAKAMJKC_00122	CDS	555	rpsP		COG0228	30S ribosomal protein S16
+EAKAMJKC_00123	CDS	2592	smc		COG1196	Chromosome partition protein Smc
+EAKAMJKC_00124	CDS	411				hypothetical protein
+EAKAMJKC_00125	CDS	762	pyrF	4.1.1.23	COG0284	Orotidine 5'-phosphate decarboxylase
+EAKAMJKC_00126	CDS	423	tsaE		COG0802	tRNA threonylcarbamoyladenosine biosynthesis protein TsaE
+EAKAMJKC_00127	CDS	417	cbaB	1.9.3.1	COG1622	Cytochrome c oxidase subunit 2
+EAKAMJKC_00128	CDS	219				hypothetical protein
+EAKAMJKC_00129	CDS	369				hypothetical protein
+EAKAMJKC_00130	CDS	2286				hypothetical protein
+EAKAMJKC_00131	CDS	993	tsaD	2.3.1.234	COG0533	tRNA N6-adenosine threonylcarbamoyltransferase
+EAKAMJKC_00132	CDS	105				hypothetical protein
+EAKAMJKC_00133	CDS	1218	aspC	2.6.1.1	COG0436	Aspartate aminotransferase
+EAKAMJKC_00134	tRNA	75				tRNA-Glu(ttc)
+EAKAMJKC_00135	CDS	723				hypothetical protein
+EAKAMJKC_00136	CDS	693				hypothetical protein
+EAKAMJKC_00137	CDS	486	hspA_1		COG0071	Spore protein SP21
+EAKAMJKC_00138	CDS	240				hypothetical protein
+EAKAMJKC_00139	CDS	1845	vanW		COG2720	Vancomycin B-type resistance protein VanW
+EAKAMJKC_00140	CDS	201	rpmF			50S ribosomal protein L32
+EAKAMJKC_00141	CDS	864	nusB		COG0781	Transcription antitermination protein NusB
+EAKAMJKC_00142	CDS	693	rnc	3.1.26.3		Ribonuclease 3
+EAKAMJKC_00143	CDS	558				hypothetical protein
+EAKAMJKC_00144	CDS	969	codA	3.5.4.1	COG0402	Cytosine deaminase
+EAKAMJKC_00145	CDS	1287	argH	4.3.2.1	COG0165	Argininosuccinate lyase
+EAKAMJKC_00146	CDS	912	pyrD	1.3.1.14	COG0167	Dihydroorotate dehydrogenase B (NAD(+)), catalytic subunit
+EAKAMJKC_00147	CDS	792	asrB		COG0543	Anaerobic sulfite reductase subunit B
+EAKAMJKC_00148	CDS	672	pyrE	2.4.2.10	COG0461	Orotate phosphoribosyltransferase
+EAKAMJKC_00149	CDS	1245	rpsA		COG0539	30S ribosomal protein S1
+EAKAMJKC_00150	CDS	1842	ftsH	3.4.24.-	COG0465	ATP-dependent zinc metalloprotease FtsH
+EAKAMJKC_00151	CDS	990				hypothetical protein
+EAKAMJKC_00152	CDS	1689	gspE		COG2804	Putative type II secretion system protein E
+EAKAMJKC_00153	CDS	3081	valS	6.1.1.9	COG0525	Valine--tRNA ligase
+EAKAMJKC_00154	CDS	420				hypothetical protein
+EAKAMJKC_00155	CDS	1035	pilT_1		COG2805	Twitching mobility protein
+EAKAMJKC_00156	CDS	192				hypothetical protein
+EAKAMJKC_00157	tRNA	75				tRNA-Arg(tcg)
+EAKAMJKC_00158	CDS	1086	mepM	3.4.24.-	COG0739	Murein DD-endopeptidase MepM
+EAKAMJKC_00159	CDS	2382	leuS	6.1.1.4		Leucine--tRNA ligase
+EAKAMJKC_00160	CDS	1194				hypothetical protein
+EAKAMJKC_00161	CDS	579	ywlC	2.7.7.87	COG0009	Threonylcarbamoyl-AMP synthase
+EAKAMJKC_00162	CDS	846	rsmA	2.1.1.182		Ribosomal RNA small subunit methyltransferase A
+EAKAMJKC_00163	CDS	807				hypothetical protein
+EAKAMJKC_00164	CDS	8403				hypothetical protein
+EAKAMJKC_00165	CDS	3255				hypothetical protein
+EAKAMJKC_00166	CDS	1269				hypothetical protein
+EAKAMJKC_00167	CDS	237				hypothetical protein
+EAKAMJKC_00168	CDS	558	efp		COG0231	Elongation factor P
+EAKAMJKC_00169	CDS	234	rpsR		COG0238	30S ribosomal protein S18
+EAKAMJKC_00170	CDS	468	ssb		COG0629	Single-stranded DNA-binding protein
+EAKAMJKC_00171	CDS	489	rpsF		COG0360	30S ribosomal protein S6
+EAKAMJKC_00172	CDS	561				hypothetical protein
+EAKAMJKC_00173	CDS	738				hypothetical protein
+EAKAMJKC_00174	CDS	1122			COG1373	putative protein
+EAKAMJKC_00175	CDS	1170				hypothetical protein
+EAKAMJKC_00176	CDS	1503	ppsA_1	2.7.9.2		Phosphoenolpyruvate synthase
+EAKAMJKC_00177	CDS	1542	ppsA_2	2.7.9.2		Phosphoenolpyruvate synthase
+EAKAMJKC_00178	CDS	1440	cmdD			Chondramide synthase cmdD
+EAKAMJKC_00179	CDS	2937	ppsA_3	2.7.9.2		Phosphoenolpyruvate synthase
+EAKAMJKC_00180	CDS	360				hypothetical protein
+EAKAMJKC_00181	CDS	972	ppsA_4	2.7.9.2		Phosphoenolpyruvate synthase
+EAKAMJKC_00182	CDS	1065				hypothetical protein
+EAKAMJKC_00183	CDS	474				hypothetical protein
+EAKAMJKC_00184	CDS	684				hypothetical protein
+EAKAMJKC_00185	CDS	1905	traC			Protein TraC
+EAKAMJKC_00186	CDS	564				hypothetical protein
+EAKAMJKC_00187	CDS	624				hypothetical protein
+EAKAMJKC_00188	CDS	1026				hypothetical protein
+EAKAMJKC_00189	CDS	1272				hypothetical protein
+EAKAMJKC_00190	CDS	651				hypothetical protein
+EAKAMJKC_00191	CDS	2076	recG	3.6.4.12		ATP-dependent DNA helicase RecG
+EAKAMJKC_00192	tRNA	77				tRNA-Arg(gcg)
+EAKAMJKC_00193	CDS	1137			COG1373	putative protein
+EAKAMJKC_00194	tRNA	90				tRNA-Ser(tga)
+EAKAMJKC_00195	tRNA	95				tRNA-Ser(gct)
+EAKAMJKC_00196	CDS	480				hypothetical protein
+EAKAMJKC_00197	CDS	486				hypothetical protein
+EAKAMJKC_00198	CDS	651				hypothetical protein
+EAKAMJKC_00199	CDS	2505	clpC		COG0542	ATP-dependent Clp protease ATP-binding subunit ClpC
+EAKAMJKC_00200	CDS	888	htpX	3.4.24.-	COG0501	Protease HtpX 
+EAKAMJKC_00201	CDS	555	lemA		COG1704	Protein LemA
+EAKAMJKC_00202	CDS	993				hypothetical protein
+EAKAMJKC_00203	CDS	1638				hypothetical protein
+EAKAMJKC_00204	CDS	1476				hypothetical protein
+EAKAMJKC_00205	CDS	249				hypothetical protein
+EAKAMJKC_00206	CDS	855				hypothetical protein
+EAKAMJKC_00207	CDS	2430				hypothetical protein
+EAKAMJKC_00208	CDS	1188	ftsA_1			Cell division protein FtsA
+EAKAMJKC_00209	CDS	921				hypothetical protein
+EAKAMJKC_00210	CDS	654				hypothetical protein
+EAKAMJKC_00211	CDS	333				hypothetical protein
+EAKAMJKC_00212	CDS	1752	hxcR		COG2804	putative type II secretion system protein HxcR
+EAKAMJKC_00213	CDS	375	phoP_1		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+EAKAMJKC_00214	CDS	1071	pilT_2		COG2805	Twitching mobility protein
+EAKAMJKC_00215	CDS	1218	gspF		COG1459	Putative type II secretion system protein F
+EAKAMJKC_00216	CDS	489	pulG_1			Type II secretion system protein G
+EAKAMJKC_00217	CDS	483	pulG_2			Type II secretion system protein G
+EAKAMJKC_00218	CDS	477				hypothetical protein
+EAKAMJKC_00219	CDS	540				hypothetical protein
+EAKAMJKC_00220	CDS	789	comC			Type 4 prepilin-like proteins leader peptide-processing enzyme
+EAKAMJKC_00221	CDS	537				hypothetical protein
+EAKAMJKC_00222	CDS	600				hypothetical protein
+EAKAMJKC_00223	CDS	585				hypothetical protein
+EAKAMJKC_00224	CDS	789				hypothetical protein
+EAKAMJKC_00225	CDS	1986	ligA	6.5.1.2	COG0272	DNA ligase
+EAKAMJKC_00226	CDS	5202				hypothetical protein
+EAKAMJKC_00227	CDS	5346				hypothetical protein
+EAKAMJKC_00228	CDS	5361				hypothetical protein
+EAKAMJKC_00229	CDS	288	gatC	6.3.5.-	COG0721	Glutamyl-tRNA(Gln) amidotransferase subunit C
+EAKAMJKC_00230	CDS	1458	gatA	6.3.5.7	COG0154	Glutamyl-tRNA(Gln) amidotransferase subunit A
+EAKAMJKC_00231	CDS	753				hypothetical protein
+EAKAMJKC_00232	CDS	633	bdbD_1		COG1651	Disulfide bond formation protein D
+EAKAMJKC_00233	CDS	798	lgt	2.4.99.-		Prolipoprotein diacylglyceryl transferase
+EAKAMJKC_00234	CDS	519				hypothetical protein
+EAKAMJKC_00235	tRNA	77				tRNA-Asp(gtc)
+EAKAMJKC_00236	CDS	345	rplT		COG0292	50S ribosomal protein L20
+EAKAMJKC_00237	CDS	195	rpmI			50S ribosomal protein L35
+EAKAMJKC_00238	CDS	552	infC		COG0290	Translation initiation factor IF-3
+EAKAMJKC_00239	CDS	468	smpB		COG0691	SsrA-binding protein
+EAKAMJKC_00240	CDS	1593	argS	6.1.1.19	COG0018	Arginine--tRNA ligase
+EAKAMJKC_00241	CDS	138				hypothetical protein
+EAKAMJKC_00242	CDS	411			COG0328	Bifunctional protein
+EAKAMJKC_00243	CDS	1680	recJ	3.1.-.-	COG0608	Single-stranded-DNA-specific exonuclease RecJ
+EAKAMJKC_00244	CDS	285				hypothetical protein
+EAKAMJKC_00245	CDS	1188				hypothetical protein
+EAKAMJKC_00246	CDS	2037	pat	2.3.1.-	COG0454	Protein lysine acetyltransferase Pat
+EAKAMJKC_00247	CDS	984	pfkB	2.7.1.11	COG0524	ATP-dependent 6-phosphofructokinase
+EAKAMJKC_00248	CDS	255				hypothetical protein
+EAKAMJKC_00249	CDS	1602				hypothetical protein
+EAKAMJKC_00250	CDS	468	bcp	1.11.1.15	COG1225	Peroxiredoxin Bcp
+EAKAMJKC_00251	tRNA	74				tRNA-Gln(ctg)
+EAKAMJKC_00252	CDS	348				hypothetical protein
+EAKAMJKC_00253	CDS	1557	dnaX	2.7.7.7	COG2812	DNA polymerase III subunit gamma/tau
+EAKAMJKC_00254	CDS	537				hypothetical protein
+EAKAMJKC_00255	CDS	522				hypothetical protein
+EAKAMJKC_00256	CDS	2508				hypothetical protein
+EAKAMJKC_00257	CDS	513				hypothetical protein
+EAKAMJKC_00258	CDS	954	corA		COG0598	Cobalt/magnesium transport protein CorA
+EAKAMJKC_00259	CDS	936	dus	1.3.1.-	COG0042	putative tRNA-dihydrouridine synthase
+EAKAMJKC_00260	CDS	3192				hypothetical protein
+EAKAMJKC_00261	CDS	1554				hypothetical protein
+EAKAMJKC_00262	CDS	1077	dnaJ		COG0484	Chaperone protein DnaJ
+EAKAMJKC_00263	CDS	735	arsM	2.1.1.137		Arsenite methyltransferase
+EAKAMJKC_00264	CDS	423	rpiB	5.3.1.6	COG0698	Ribose-5-P isomerase B
+EAKAMJKC_00265	CDS	1953	dnaK		COG0443	Chaperone protein DnaK
+EAKAMJKC_00266	CDS	267				hypothetical protein
+EAKAMJKC_00267	CDS	324				hypothetical protein
+EAKAMJKC_00268	CDS	417	hspA_2		COG0071	Spore protein SP21
+EAKAMJKC_00269	CDS	459	grpE		COG0576	Protein GrpE
+EAKAMJKC_00270	CDS	678	hrcA			Heat-inducible transcription repressor HrcA
+EAKAMJKC_00271	CDS	1254	macB_1	3.6.3.-	COG0577	Macrolide export ATP-binding/permease protein MacB
+EAKAMJKC_00272	CDS	1236	macB_2	3.6.3.-	COG0577	Macrolide export ATP-binding/permease protein MacB
+EAKAMJKC_00273	CDS	723	yknY	3.6.3.-	COG1136	putative ABC transporter ATP-binding protein YknY
+EAKAMJKC_00274	CDS	1656	macA		COG0845	Macrolide export protein MacA
+EAKAMJKC_00275	CDS	1131	tyrP		COG0814	Tyrosine-specific transport protein
+EAKAMJKC_00276	CDS	1059				hypothetical protein
+EAKAMJKC_00277	CDS	996				hypothetical protein
+EAKAMJKC_00278	CDS	906				hypothetical protein
+EAKAMJKC_00279	CDS	1347	ugtP	2.4.1.315		Processive diacylglycerol beta-glucosyltransferase
+EAKAMJKC_00280	CDS	1212				hypothetical protein
+EAKAMJKC_00281	CDS	516	fbp	5.2.1.8	COG0545	FK506-binding protein
+EAKAMJKC_00282	tRNA	74				tRNA-Trp(cca)
+EAKAMJKC_00283	CDS	420				hypothetical protein
+EAKAMJKC_00284	CDS	156	rpmG		COG0267	50S ribosomal protein L33
+EAKAMJKC_00285	tRNA	76				tRNA-Thr(tgt)
+EAKAMJKC_00286	tRNA	86				tRNA-Tyr(gta)
+EAKAMJKC_00287	tRNA	76				tRNA-Thr(ggt)
+EAKAMJKC_00288	CDS	885	bepA	3.4.-.-		Beta-barrel assembly-enhancing protease
+EAKAMJKC_00289	CDS	852	iolJ	4.1.2.29	COG0191	6-phospho-5-dehydro-2-deoxy-D-gluconate aldolase
+EAKAMJKC_00290	CDS	753	tpiA	5.3.1.1		Triosephosphate isomerase
+EAKAMJKC_00291	CDS	456				hypothetical protein
+EAKAMJKC_00292	CDS	903	pbpG_2	3.4.21.-	COG1686	D-alanyl-D-alanine endopeptidase
+EAKAMJKC_00293	CDS	393				hypothetical protein
+EAKAMJKC_00294	CDS	681		5.4.99.-	COG1187	putative RNA pseudouridine synthase
+EAKAMJKC_00295	CDS	594	scpB		COG1386	Segregation and condensation protein B
+EAKAMJKC_00296	CDS	717	scpA		COG1354	Segregation and condensation protein A
+EAKAMJKC_00297	CDS	510	proS	6.1.1.15		Proline--tRNA ligase
+EAKAMJKC_00298	CDS	339				hypothetical protein
+EAKAMJKC_00299	CDS	1407	aspS	6.1.1.12		Aspartate--tRNA ligase
+EAKAMJKC_00300	CDS	264				hypothetical protein
+EAKAMJKC_00301	CDS	1290	asnS	6.1.1.22		Asparagine--tRNA ligase
+EAKAMJKC_00302	tRNA	75				tRNA-Asn(gtt)
+EAKAMJKC_00303	CDS	924				hypothetical protein
+EAKAMJKC_00304	CDS	1524	purH			Bifunctional purine biosynthesis protein PurH
+EAKAMJKC_00305	CDS	180				hypothetical protein
+EAKAMJKC_00306	CDS	576	purN	2.1.2.2	COG0299	Phosphoribosylglycinamide formyltransferase
+EAKAMJKC_00307	CDS	1311	purD	6.3.4.13	COG0151	Phosphoribosylamine--glycine ligase
+EAKAMJKC_00308	CDS	1488	purF	2.4.2.14	COG0034	Amidophosphoribosyltransferase
+EAKAMJKC_00309	CDS	1350	purB	4.3.2.2	COG0015	Adenylosuccinate lyase
+EAKAMJKC_00310	CDS	447	purE	4.1.1.21	COG0041	Phosphoribosylaminoimidazole carboxylase
+EAKAMJKC_00311	CDS	966	purC	6.3.2.6	COG0152	Phosphoribosylaminoimidazole-succinocarboxamide synthase
+EAKAMJKC_00312	CDS	933	ubiE_2	2.1.1.163		Ubiquinone/menaquinone biosynthesis C-methyltransferase UbiE
+EAKAMJKC_00313	CDS	546		3.6.1.-	COG0494	Nudix hydrolase
+EAKAMJKC_00314	CDS	1227	purQ	6.3.5.3		Phosphoribosylformylglycinamidine synthase subunit PurQ
+EAKAMJKC_00315	CDS	1161	purM	6.3.3.1		Phosphoribosylformylglycinamidine cyclo-ligase
+EAKAMJKC_00316	CDS	549				hypothetical protein
+EAKAMJKC_00317	CDS	2352	purL	6.3.5.3	COG0046	Phosphoribosylformylglycinamidine synthase subunit PurL
+EAKAMJKC_00318	CDS	234				hypothetical protein
+EAKAMJKC_00319	CDS	1290	purA	6.3.4.4	COG0104	Adenylosuccinate synthetase
+EAKAMJKC_00320	CDS	858	folD		COG0190	Bifunctional protein FolD protein
+EAKAMJKC_00321	CDS	1194				hypothetical protein
+EAKAMJKC_00322	CDS	1821	guaA	6.3.5.2		GMP synthase [glutamine-hydrolyzing]
+EAKAMJKC_00323	CDS	1479	guaB	1.1.1.205	COG0516	Inosine-5'-monophosphate dehydrogenase
+EAKAMJKC_00324	CDS	885		2.7.1.-		Putative lipid kinase
+EAKAMJKC_00325	CDS	1203	ytrF		COG0577	ABC transporter permease YtrF
+EAKAMJKC_00326	CDS	1329	bceA		COG1136	Bacitracin export ATP-binding protein BceA
+EAKAMJKC_00327	CDS	2400				hypothetical protein
+EAKAMJKC_00328	CDS	3297				hypothetical protein
+EAKAMJKC_00329	CDS	561				hypothetical protein
+EAKAMJKC_00330	CDS	738	yhhQ		COG1738	Queuosine precursor transporter
+EAKAMJKC_00331	CDS	282	hupB_1		COG0776	DNA-binding protein HU-beta
+EAKAMJKC_00332	CDS	759	fas6	3.2.2.-		Cytokinin riboside 5'-monophosphate phosphoribohydrolase
+EAKAMJKC_00333	CDS	747	zupT		COG0428	Zinc transporter ZupT
+EAKAMJKC_00334	CDS	777	mtnP	2.4.2.28	COG0005	S-methyl-5'-thioadenosine phosphorylase
+EAKAMJKC_00335	CDS	552	apt	2.4.2.7	COG0503	Adenine phosphoribosyltransferase
+EAKAMJKC_00336	CDS	366	arlR_1		COG0745	Response regulator ArlR
+EAKAMJKC_00337	CDS	387	phoB		COG0745	Phosphate regulon transcriptional regulatory protein PhoB
+EAKAMJKC_00338	CDS	375	phoP_2		COG0745	Alkaline phosphatase synthesis transcriptional regulatory protein PhoP
+EAKAMJKC_00339	CDS	477	cheD	3.5.1.44	COG1871	Chemoreceptor glutamine deamidase CheD
+EAKAMJKC_00340	CDS	615	cheC	3.-.-.-	COG1776	CheY-P phosphatase CheC
+EAKAMJKC_00341	CDS	1773	cheA	2.7.13.3	COG0643	Chemotaxis protein CheA
+EAKAMJKC_00342	CDS	1044	cheB	3.1.1.61	COG2201	Chemotaxis response regulator protein-glutamate methylesterase
+EAKAMJKC_00343	CDS	357	arlR_2		COG0745	Response regulator ArlR
+EAKAMJKC_00344	CDS	891				hypothetical protein
+EAKAMJKC_00345	CDS	432	nudC	3.6.1.22		NADH pyrophosphatase
+EAKAMJKC_00346	CDS	999	rlmN	2.1.1.192		putative dual-specificity RNA methyltransferase RlmN
+EAKAMJKC_00347	tRNA	75				tRNA-Asn(gtt)
+EAKAMJKC_00348	CDS	1350	sigA		COG0568	RNA polymerase sigma factor SigA
+EAKAMJKC_00349	CDS	1767	dnaG	2.7.7.-	COG0358	DNA primase
+EAKAMJKC_00350	tRNA	92				tRNA-Ser(gga)
+EAKAMJKC_00351	CDS	441				hypothetical protein
+EAKAMJKC_00352	CDS	828	menA	2.5.1.74		1,4-dihydroxy-2-naphthoate octaprenyltransferase
+EAKAMJKC_00353	CDS	342				hypothetical protein
+EAKAMJKC_00354	CDS	2385	ppsA_5	2.7.9.2		Phosphoenolpyruvate synthase
+EAKAMJKC_00355	CDS	2667		3.6.3.8		Calcium-transporting ATPase 1
+EAKAMJKC_00356	tRNA	77				tRNA-Lys(ttt)
+EAKAMJKC_00357	CDS	1425	dnaC	3.6.4.12	COG0305	Replicative DNA helicase
+EAKAMJKC_00358	CDS	297			COG0718	Nucleoid-associated protein
+EAKAMJKC_00359	CDS	594	recR		COG0353	Recombination protein RecR
+EAKAMJKC_00360	CDS	309	rplU		COG0261	50S ribosomal protein L21
+EAKAMJKC_00361	CDS	426				hypothetical protein
+EAKAMJKC_00362	CDS	1062	tagO	2.7.8.33	COG0472	putative undecaprenyl-phosphate N-acetylglucosaminyl 1-phosphate transferase
+EAKAMJKC_00363	CDS	372	yqgF	3.1.-.-	COG0816	Putative pre-16S rRNA nuclease
+EAKAMJKC_00364	CDS	759	map	3.4.11.18	COG0024	Methionine aminopeptidase 1
+EAKAMJKC_00365	CDS	624	adk	2.7.4.3		Adenylate kinase
+EAKAMJKC_00366	CDS	327				hypothetical protein
+EAKAMJKC_00367	CDS	366				hypothetical protein
+EAKAMJKC_00368	CDS	1275	secY		COG0201	Protein translocase subunit SecY
+EAKAMJKC_00369	CDS	489	rplO			50S ribosomal protein L15
+EAKAMJKC_00370	CDS	585	rpsE		COG0098	30S ribosomal protein S5
+EAKAMJKC_00371	CDS	354	rplR		COG0256	50S ribosomal protein L18
+EAKAMJKC_00372	CDS	549	rplF		COG0097	50S ribosomal protein L6
+EAKAMJKC_00373	CDS	390	rpsH		COG0096	30S ribosomal protein S8
+EAKAMJKC_00374	CDS	186	rpsZ		COG0199	30S ribosomal protein S14 type Z
+EAKAMJKC_00375	CDS	546	rplE		COG0094	50S ribosomal protein L5
+EAKAMJKC_00376	CDS	309	rplX		COG0198	50S ribosomal protein L24
+EAKAMJKC_00377	CDS	372	rplN		COG0093	50S ribosomal protein L14
+EAKAMJKC_00378	CDS	249	rpsQ		COG0186	30S ribosomal protein S17
+EAKAMJKC_00379	CDS	213	rpmC		COG0255	50S ribosomal protein L29
+EAKAMJKC_00380	CDS	408	rplP		COG0197	50S ribosomal protein L16
+EAKAMJKC_00381	CDS	681	rpsC		COG0092	30S ribosomal protein S3
+EAKAMJKC_00382	CDS	582	rplV		COG0091	50S ribosomal protein L22
+EAKAMJKC_00383	CDS	282	rpsS		COG0185	30S ribosomal protein S19
+EAKAMJKC_00384	CDS	846	rplB			50S ribosomal protein L2
+EAKAMJKC_00385	CDS	465	rplW		COG0089	50S ribosomal protein L23
+EAKAMJKC_00386	CDS	618	rplD			50S ribosomal protein L4
+EAKAMJKC_00387	CDS	792	rplC		COG0087	50S ribosomal protein L3
+EAKAMJKC_00388	CDS	345	rpsJ		COG0051	30S ribosomal protein S10
+EAKAMJKC_00389	CDS	1188	tuf1			Elongation factor Tu
+EAKAMJKC_00390	CDS	228				hypothetical protein
+EAKAMJKC_00391	CDS	387				hypothetical protein
+EAKAMJKC_00392	CDS	822	proC	1.5.1.2	COG0345	Pyrroline-5-carboxylate reductase
+EAKAMJKC_00393	CDS	387				hypothetical protein
+EAKAMJKC_00394	CDS	390				hypothetical protein
+EAKAMJKC_00395	CDS	813				hypothetical protein
+EAKAMJKC_00396	CDS	390	copA	3.6.3.54	COG2217	Copper-exporting P-type ATPase
+EAKAMJKC_00397	CDS	102				hypothetical protein
+EAKAMJKC_00398	CDS	546				hypothetical protein
+EAKAMJKC_00399	CDS	396				hypothetical protein
+EAKAMJKC_00400	CDS	729	bdbD_2		COG1651	Disulfide bond formation protein D
+EAKAMJKC_00401	CDS	372				hypothetical protein
+EAKAMJKC_00402	CDS	2082	fusA		COG0480	Elongation factor G
+EAKAMJKC_00403	CDS	480	rpsG		COG0049	30S ribosomal protein S7
+EAKAMJKC_00404	CDS	429	rpsL		COG0048	30S ribosomal protein S12
+EAKAMJKC_00405	CDS	189				hypothetical protein
+EAKAMJKC_00406	CDS	636				hypothetical protein
+EAKAMJKC_00407	CDS	177	rpmB		COG0227	50S ribosomal protein L28
+EAKAMJKC_00408	CDS	1761	atm1		COG5265	ATM1-type heavy metal exporter
+EAKAMJKC_00409	CDS	234				hypothetical protein
+EAKAMJKC_00410	CDS	450	ndk	2.7.4.6	COG0105	Nucleoside diphosphate kinase
+EAKAMJKC_00411	CDS	381	afsQ1			Transcriptional regulatory protein AfsQ1
+EAKAMJKC_00412	CDS	837	comEC_1		COG0658	ComE operon protein 3
+EAKAMJKC_00413	CDS	1473	comEC_2		COG0658	ComE operon protein 3
+EAKAMJKC_00414	CDS	387				hypothetical protein
+EAKAMJKC_00415	CDS	492				hypothetical protein
+EAKAMJKC_00416	CDS	1374	cysS	6.1.1.16	COG0215	Cysteine--tRNA ligase
+EAKAMJKC_00417	CDS	648				hypothetical protein
+EAKAMJKC_00418	CDS	528				hypothetical protein
+EAKAMJKC_00419	CDS	528				hypothetical protein
+EAKAMJKC_00420	CDS	1074	prfB			Peptide chain release factor 2
+EAKAMJKC_00421	CDS	606				hypothetical protein
+EAKAMJKC_00422	CDS	360				hypothetical protein
+EAKAMJKC_00423	CDS	471				hypothetical protein
+EAKAMJKC_00424	CDS	477	nrdR		COG1327	Transcriptional repressor NrdR
+EAKAMJKC_00425	CDS	1197	ftsZ		COG0206	Cell division protein FtsZ
+EAKAMJKC_00426	CDS	1251	ftsA_2		COG0849	Cell division protein FtsA
+EAKAMJKC_00427	CDS	375	ybeY	3.1.-.-	COG0319	Endoribonuclease YbeY
+EAKAMJKC_00428	CDS	1338				hypothetical protein
+EAKAMJKC_00429	CDS	744				hypothetical protein
+EAKAMJKC_00430	CDS	7794				hypothetical protein
+EAKAMJKC_00431	CDS	1593				hypothetical protein
+EAKAMJKC_00432	CDS	450	yqeY		COG1610	putative protein YqeY
+EAKAMJKC_00433	CDS	258	rpsU			30S ribosomal protein S21
+EAKAMJKC_00434	CDS	1329	hisS	6.1.1.21	COG0124	Histidine--tRNA ligase
+EAKAMJKC_00435	CDS	612	sipT	3.4.21.89	COG0681	Signal peptidase I T
+EAKAMJKC_00436	CDS	468	mutX	3.6.1.55	COG0494	8-oxo-dGTP diphosphatase
+EAKAMJKC_00437	CDS	348				hypothetical protein
+EAKAMJKC_00438	tRNA	77				tRNA-Val(cac)
+EAKAMJKC_00439	CDS	1563	tagV	2.7.8.-	COG1316	Polyisoprenyl-teichoic acid--peptidoglycan teichoic acid transferase TagV
+EAKAMJKC_00440	CDS	1311	der		COG1160	GTPase Der
+EAKAMJKC_00441	CDS	525	pth	3.1.1.29		Peptidyl-tRNA hydrolase
+EAKAMJKC_00442	CDS	219				hypothetical protein
+EAKAMJKC_00443	CDS	882	dprA		COG0758	DNA processing protein DprA
+EAKAMJKC_00444	CDS	1296	fpgS	6.3.2.17		Folylpolyglutamate synthase
+EAKAMJKC_00445	CDS	2184	topA	5.99.1.2		DNA topoisomerase 1
+EAKAMJKC_00446	CDS	969				hypothetical protein
+EAKAMJKC_00447	CDS	1476	relA	2.7.6.5	COG0317	GTP pyrophosphokinase
+EAKAMJKC_00448	CDS	873	parB		COG1475	putative chromosome-partitioning protein ParB
+EAKAMJKC_00449	CDS	762	soj	3.6.-.-	COG1192	Sporulation initiation inhibitor protein Soj
+EAKAMJKC_00450	tRNA	76				tRNA-Met(cat)
+EAKAMJKC_00451	tRNA	76				tRNA-Lys(ctt)
+EAKAMJKC_00452	tRNA	85				tRNA-Leu(caa)
+EAKAMJKC_00453	tRNA	75				tRNA-Met(cat)
+EAKAMJKC_00454	CDS	714	glpQ	3.1.4.46	COG0584	Glycerophosphodiester phosphodiesterase
+EAKAMJKC_00455	CDS	315				hypothetical protein
+EAKAMJKC_00456	CDS	546				hypothetical protein
+EAKAMJKC_00457	CDS	1179				hypothetical protein
+EAKAMJKC_00458	CDS	3054				hypothetical protein
+EAKAMJKC_00459	CDS	549	sigW		COG1595	ECF RNA polymerase sigma factor SigW
+EAKAMJKC_00460	CDS	1209				hypothetical protein
+EAKAMJKC_00461	CDS	1632	groL		COG0459	60 kDa chaperonin
+EAKAMJKC_00462	CDS	291	groS5			10 kDa chaperonin 5
+EAKAMJKC_00463	CDS	504				hypothetical protein
+EAKAMJKC_00464	CDS	1296				hypothetical protein
+EAKAMJKC_00465	CDS	912				hypothetical protein
+EAKAMJKC_00466	CDS	2856	uvrA			UvrABC system protein A
+EAKAMJKC_00467	CDS	207				hypothetical protein
+EAKAMJKC_00468	CDS	1554				hypothetical protein
+EAKAMJKC_00469	CDS	534				hypothetical protein
+EAKAMJKC_00470	CDS	1725	uvrC		COG0322	UvrABC system protein C
+EAKAMJKC_00471	CDS	222				hypothetical protein
+EAKAMJKC_00472	CDS	1830	appA			Oligopeptide-binding protein AppA
+EAKAMJKC_00473	CDS	1782	rnj1	3.1.-.-	COG0595	Ribonuclease J 1
+EAKAMJKC_00474	CDS	981	trpS	6.1.1.2	COG0180	Tryptophan--tRNA ligase
+EAKAMJKC_00475	CDS	807	murI	5.1.1.3	COG0796	Glutamate racemase
+EAKAMJKC_00476	CDS	1374	algC	5.4.2.2		Phosphomannomutase/phosphoglucomutase
+EAKAMJKC_00477	CDS	1209				hypothetical protein
+EAKAMJKC_00478	CDS	705	menG	2.1.1.163		Demethylmenaquinone methyltransferase
+EAKAMJKC_00479	CDS	1530	hemN	1.3.99.-	COG0635	Oxygen-independent coproporphyrinogen-III oxidase-like protein YqeR
+EAKAMJKC_00480	CDS	294				hypothetical protein
+EAKAMJKC_00481	CDS	423				hypothetical protein
+EAKAMJKC_00482	CDS	1287	glyA	2.1.2.1	COG0112	Serine hydroxymethyltransferase
+EAKAMJKC_00483	CDS	513				hypothetical protein
+EAKAMJKC_00484	CDS	312	cutA		COG1324	Divalent-cation tolerance protein CutA
+EAKAMJKC_00485	CDS	777				hypothetical protein
+EAKAMJKC_00486	CDS	345	ribF		COG0196	Riboflavin biosynthesis protein RibF
+EAKAMJKC_00487	CDS	2049	pcrA	3.6.4.12	COG0210	ATP-dependent DNA helicase PcrA
+EAKAMJKC_00488	CDS	147				hypothetical protein
+EAKAMJKC_00489	CDS	573				hypothetical protein
+EAKAMJKC_00490	CDS	390				hypothetical protein
+EAKAMJKC_00491	CDS	258				hypothetical protein
+EAKAMJKC_00492	CDS	1068	ychF		COG0012	Ribosome-binding ATPase YchF
+EAKAMJKC_00493	CDS	204				hypothetical protein
+EAKAMJKC_00494	CDS	1038	queA	2.4.99.17	COG0809	S-adenosylmethionine:tRNA ribosyltransferase-isomerase
+EAKAMJKC_00495	CDS	789				hypothetical protein
+EAKAMJKC_00496	CDS	534	queH	1.17.99.6	COG1636	Epoxyqueuosine reductase QueH
+EAKAMJKC_00497	CDS	645	hxpB	3.1.3.68	COG0637	Hexitol phosphatase B
+EAKAMJKC_00498	CDS	1026	ruvB	3.6.4.12	COG2255	Holliday junction ATP-dependent DNA helicase RuvB
+EAKAMJKC_00499	CDS	372				hypothetical protein
+EAKAMJKC_00500	CDS	969				hypothetical protein
+EAKAMJKC_00501	CDS	2529	gyrA	5.99.1.3	COG0188	DNA gyrase subunit A
+EAKAMJKC_00502	CDS	96				hypothetical protein
+EAKAMJKC_00503	CDS	732				hypothetical protein
+EAKAMJKC_00504	CDS	609				hypothetical protein
+EAKAMJKC_00505	CDS	1014				hypothetical protein
+EAKAMJKC_00506	CDS	540				hypothetical protein
+EAKAMJKC_00507	CDS	435				hypothetical protein
+EAKAMJKC_00508	CDS	543	btuR	2.5.1.17	COG2109	Cob(I)yrinic acid a,c-diamide adenosyltransferase
+EAKAMJKC_00509	CDS	564				hypothetical protein
+EAKAMJKC_00510	CDS	1779	shc	4.2.1.129	COG1657	Squalene--hopene cyclase
+EAKAMJKC_00511	CDS	339				hypothetical protein
+EAKAMJKC_00512	CDS	2865	nrdJ	1.17.4.1	COG0209	Vitamin B12-dependent ribonucleotide reductase
+EAKAMJKC_00513	CDS	672				hypothetical protein
+EAKAMJKC_00514	CDS	339				hypothetical protein
+EAKAMJKC_00515	CDS	297	dfx	1.15.1.2	COG2033	Desulfoferrodoxin
+EAKAMJKC_00516	CDS	516		1.11.1.15	COG0450	Alkyl hydroperoxide reductase C
+EAKAMJKC_00517	CDS	417	bfr	1.16.3.1	COG2193	Bacterioferritin
+EAKAMJKC_00518	CDS	186				hypothetical protein
+EAKAMJKC_00519	CDS	669	iscU		COG0822	Iron-sulfur cluster assembly scaffold protein IscU
+EAKAMJKC_00520	CDS	1179	iscS	2.8.1.7		Cysteine desulfurase IscS
+EAKAMJKC_00521	CDS	414	perR		COG0735	Peroxide operon regulator
+EAKAMJKC_00522	CDS	243				hypothetical protein
+EAKAMJKC_00523	CDS	189				hypothetical protein
+EAKAMJKC_00524	CDS	360				hypothetical protein
+EAKAMJKC_00525	CDS	636				hypothetical protein
+EAKAMJKC_00526	CDS	378				hypothetical protein
+EAKAMJKC_00527	CDS	867	korB	1.2.7.3	COG1013	2-oxoglutarate oxidoreductase subunit KorB
+EAKAMJKC_00528	CDS	1704	korA	1.2.7.3	COG0674	2-oxoglutarate oxidoreductase subunit KorA
+EAKAMJKC_00529	CDS	222	fd1			Ferredoxin-1
+EAKAMJKC_00530	CDS	249				hypothetical protein
+EAKAMJKC_00531	CDS	1071	ynaI		COG0668	Low conductance mechanosensitive channel YnaI
+EAKAMJKC_00532	CDS	780				hypothetical protein
+EAKAMJKC_00533	CDS	174				hypothetical protein
+EAKAMJKC_00534	CDS	213				hypothetical protein
+EAKAMJKC_00535	CDS	183				hypothetical protein
+EAKAMJKC_00536	CDS	123				hypothetical protein
+EAKAMJKC_00537	CDS	675				hypothetical protein
+EAKAMJKC_00538	CDS	192				hypothetical protein
+EAKAMJKC_00539	CDS	435				hypothetical protein
+EAKAMJKC_00540	CDS	1290				hypothetical protein
+EAKAMJKC_00541	CDS	198	scoF		COG1278	Cold shock protein ScoF
+EAKAMJKC_00542	CDS	519				hypothetical protein
+EAKAMJKC_00543	CDS	243				hypothetical protein
+EAKAMJKC_00544	CDS	534				hypothetical protein
+EAKAMJKC_00545	CDS	1452	ybiT		COG0488	putative ABC transporter ATP-binding protein YbiT
+EAKAMJKC_00546	CDS	420				hypothetical protein
+EAKAMJKC_00547	CDS	1686	tolB			Protein TolB
+EAKAMJKC_00548	CDS	534				hypothetical protein
+EAKAMJKC_00549	CDS	1059				hypothetical protein
+EAKAMJKC_00550	CDS	159				hypothetical protein
+EAKAMJKC_00551	CDS	573				hypothetical protein
+EAKAMJKC_00552	CDS	207				hypothetical protein
+EAKAMJKC_00553	CDS	735				hypothetical protein
+EAKAMJKC_00554	CDS	927				hypothetical protein
+EAKAMJKC_00555	CDS	177				hypothetical protein
+EAKAMJKC_00556	CDS	366				hypothetical protein
+EAKAMJKC_00557	CDS	324				hypothetical protein
+EAKAMJKC_00558	CDS	204				hypothetical protein
+EAKAMJKC_00559	CDS	150				hypothetical protein
+EAKAMJKC_00560	CDS	327				hypothetical protein
+EAKAMJKC_00561	tRNA	74				tRNA-His(gtg)
+EAKAMJKC_00562	tRNA	75				tRNA-Arg(tct)
+EAKAMJKC_00563	CDS	705	xerC			Tyrosine recombinase XerC
+EAKAMJKC_00564	CDS	306				hypothetical protein
+EAKAMJKC_00565	CDS	345	rpsO			30S ribosomal protein S15
+EAKAMJKC_00566	CDS	501				hypothetical protein
+EAKAMJKC_00567	CDS	2247	pnp	2.7.7.8	COG1185	Polyribonucleotide nucleotidyltransferase
+EAKAMJKC_00568	CDS	351				hypothetical protein
+EAKAMJKC_00569	CDS	189				hypothetical protein
+EAKAMJKC_00570	CDS	1458				hypothetical protein
+EAKAMJKC_00571	CDS	381	yocK		COG1734	General stress protein 16O
+EAKAMJKC_00572	CDS	447	lspA	3.4.23.36	COG0597	Lipoprotein signal peptidase
+EAKAMJKC_00573	CDS	1461				hypothetical protein
+EAKAMJKC_00574	CDS	753				hypothetical protein
+EAKAMJKC_00575	CDS	306	hupB_2		COG0776	DNA-binding protein HU-beta
+EAKAMJKC_00576	CDS	786	ymdB	3.1.4.16	COG1692	2',3'-cyclic-nucleotide 2'-phosphodiesterase
+EAKAMJKC_00577	CDS	1527	rny	3.1.-.-	COG1418	Ribonuclease Y
+EAKAMJKC_00578	CDS	576	clpP	3.4.21.92	COG0740	ATP-dependent Clp protease proteolytic subunit
+EAKAMJKC_00579	CDS	975	nrnA_1	3.1.-.-	COG0618	Bifunctional oligoribonuclease and PAP phosphatase NrnA
+EAKAMJKC_00580	CDS	339	rbfA			Ribosome-binding factor A
+EAKAMJKC_00581	CDS	2019	infB			Translation initiation factor IF-2
+EAKAMJKC_00582	CDS	1134	nrnA_2	3.1.-.-	COG0618	Bifunctional oligoribonuclease and PAP phosphatase NrnA
+EAKAMJKC_00583	tRNA	76				tRNA-Ile(tat)
+EAKAMJKC_00584	tRNA	77				tRNA-Val(gac)
+EAKAMJKC_00585	CDS	498				hypothetical protein
+EAKAMJKC_00586	CDS	354				hypothetical protein
+EAKAMJKC_00587	CDS	915	rluD	5.4.99.23	COG0564	Ribosomal large subunit pseudouridine synthase D
+EAKAMJKC_00588	CDS	543	cmk	2.7.4.25	COG0283	Cytidylate kinase
+EAKAMJKC_00589	CDS	339	rplS		COG0335	50S ribosomal protein L19
+EAKAMJKC_00590	tRNA	86				tRNA-Leu(gag)
+EAKAMJKC_00591	tRNA	77				tRNA-Val(tac)
+EAKAMJKC_00592	CDS	249				hypothetical protein
+EAKAMJKC_00593	tRNA	77				tRNA-Ala(tgc)

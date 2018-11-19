@@ -1,0 +1,98 @@
+[21:21:19] This is prokka 1.13
+[21:21:19] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[21:21:19] Homepage is https://github.com/tseemann/prokka
+[21:21:19] Local time is Fri Nov 16 21:21:19 2018
+[21:21:19] You are linuxbrew
+[21:21:19] Operating system is linux
+[21:21:19] You have BioPerl 1.007002
+[21:21:19] System has 40 cores.
+[21:21:19] Will use maximum of 8 cores.
+[21:21:19] Annotating as >>> Bacteria <<<
+[21:21:19] Generating locus_tag from '/projects/micb405/resources/project_2/2018/SaanichInlet_200m/MetaBAT2_SaanichInlet_200m/MedQPlus_MAGs/SaanichInlet_200m.109.fa' contents.
+[21:21:19] Setting --locustag AJGJENBJ from MD5 a303e7b3aa511f9c9d6dc53948f31d01
+[21:21:19] Re-using existing --outdir project2/prokka_output/SaanichInlet_200m.109
+[21:21:19] Using filename prefix: MAG109.XXX
+[21:21:19] Setting HMMER_NCPU=1
+[21:21:19] Writing log to: project2/prokka_output/SaanichInlet_200m.109/MAG109.log
+[21:21:19] Command: /home/linuxbrew/.linuxbrew/bin/prokka --kingdom Bacteria --outdir project2/prokka_output/SaanichInlet_200m.109 --force --prefix MAG109 --cpus 8 /projects/micb405/resources/project_2/2018/SaanichInlet_200m/MetaBAT2_SaanichInlet_200m/MedQPlus_MAGs/SaanichInlet_200m.109.fa
+[21:21:19] Appending to PATH: /home/linuxbrew/.linuxbrew/Cellar/prokka/1.13/bin
+[21:21:19] Looking for 'aragorn' - found /home/linuxbrew/.linuxbrew/bin/aragorn
+[21:21:19] Determined aragorn version is 1.2
+[21:21:19] Looking for 'barrnap' - found /home/linuxbrew/.linuxbrew/bin/barrnap
+[21:21:19] Determined barrnap version is 0.9
+[21:21:19] Looking for 'blastp' - found /home/linuxbrew/.linuxbrew/bin/blastp
+[21:21:19] Determined blastp version is 2.7
+[21:21:19] Looking for 'cmpress' - found /home/linuxbrew/.linuxbrew/bin/cmpress
+[21:21:19] Determined cmpress version is 1.1
+[21:21:19] Looking for 'cmscan' - found /home/linuxbrew/.linuxbrew/bin/cmscan
+[21:21:19] Determined cmscan version is 1.1
+[21:21:19] Looking for 'egrep' - found /bin/egrep
+[21:21:19] Looking for 'find' - found /usr/bin/find
+[21:21:19] Looking for 'grep' - found /bin/grep
+[21:21:19] Looking for 'hmmpress' - found /home/linuxbrew/.linuxbrew/bin/hmmpress
+[21:21:19] Determined hmmpress version is 3.1
+[21:21:19] Looking for 'hmmscan' - found /home/linuxbrew/.linuxbrew/bin/hmmscan
+[21:21:19] Determined hmmscan version is 3.1
+[21:21:19] Looking for 'java' - found /home/linuxbrew/.linuxbrew/bin/java
+[21:21:19] Looking for 'less' - found /home/linuxbrew/.linuxbrew/bin/less
+[21:21:19] Looking for 'makeblastdb' - found /home/linuxbrew/.linuxbrew/bin/makeblastdb
+[21:21:19] Determined makeblastdb version is 2.7
+[21:21:19] Looking for 'minced' - found /home/linuxbrew/.linuxbrew/bin/minced
+[21:21:20] Determined minced version is 3.0
+[21:21:20] Looking for 'parallel' - found /home/linuxbrew/.linuxbrew/bin/parallel
+[21:21:20] Determined parallel version is 20180822
+[21:21:20] Looking for 'prodigal' - found /home/linuxbrew/.linuxbrew/bin/prodigal
+[21:21:20] Determined prodigal version is 2.6
+[21:21:20] Looking for 'prokka-genbank_to_fasta_db' - found /home/linuxbrew/.linuxbrew/bin/prokka-genbank_to_fasta_db
+[21:21:20] Looking for 'rnammer' - found /home/linuxbrew/.linuxbrew/bin/rnammer
+[21:21:20] Determined rnammer version is 1.2
+[21:21:20] Looking for 'sed' - found /bin/sed
+[21:21:20] Looking for 'tbl2asn' - found /home/linuxbrew/.linuxbrew/bin/tbl2asn
+[21:21:20] Determined tbl2asn version is 25.6
+[21:21:20] Using genetic code table 11.
+[21:21:20] Loading and checking input file: /projects/micb405/resources/project_2/2018/SaanichInlet_200m/MetaBAT2_SaanichInlet_200m/MedQPlus_MAGs/SaanichInlet_200m.109.fa
+[21:21:20] Wrote 40 contigs totalling 938753 bp.
+[21:21:20] Predicting tRNAs and tmRNAs
+[21:21:20] Running: aragorn -l -gc11  -w project2\/prokka_output\/SaanichInlet_200m\.109\/MAG109\.fna
+[21:21:21] 1 tRNA-Glu c[83,157] 34 (ctc)
+[21:21:21] 1 tRNA-Glu c[24380,24454] 34 (ttc)
+[21:21:21] 1 tRNA-Leu [9100,9186] 35 (gag)
+[21:21:21] 2 tRNA-His [19128,19204] 35 (gtg)
+[21:21:21] 1 tRNA-Asp c[3048,3124] 35 (gtc)
+[21:21:21] 2 tRNA-Ser [6109,6198] 35 (gga)
+[21:21:21] 1 tRNA-Asn [11066,11140] 33 (gtt)
+[21:21:21] 1 tRNA-Ala [4232,4308] 35 (cgc)
+[21:21:21] 1 tRNA-Ala c[19366,19442] 35 (ggc)
+[21:21:21] 1 tRNA-Val c[111,188] 36 (tac)
+[21:21:21] 2 tRNA-Gly c[55351,55425] 34 (tcc)
+[21:21:21] 3 tRNA-Ile [59172,59247] 34 (tat)
+[21:21:21] 4 tRNA-Lys [72481,72556] 34 (ttt)
+[21:21:21] 1 tRNA-Arg [2140,2216] 35 (tcg)
+[21:21:21] tRNA c[6126,6200] is a pseudo/wacky gene - skipping.
+[21:21:21] 2 tmRNA [6423,6828] 95,175 AKDVPTAFKNAFANFRLPELAPALVA*
+[21:21:21] 1 tRNA-Thr [39001,39075] 33 (ggt)
+[21:21:21] 2 tRNA-Ser [41429,41519] 35 (cga)
+[21:21:21] 1 tRNA-Ala c[197,273] 35 (tgc)
+[21:21:21] 1 tRNA-Lys [14402,14477] 34 (ctt)
+[21:21:21] 2 tRNA-Val c[28982,29058] 35 (gac)
+[21:21:21] 1 tRNA-Thr c[4896,4972] 35 (tgt)
+[21:21:21] 2 tRNA-Arg c[14431,14505] 34 (cct)
+[21:21:21] 3 tRNA-Trp c[28846,28921] 34 (cca)
+[21:21:21] 1 tRNA-Leu [26004,26090] 35 (tag)
+[21:21:21] 1 tRNA-Pro c[9340,9416] 35 (tgg)
+[21:21:21] 2 tRNA-Met c[11412,11488] 35 (cat)
+[21:21:21] 3 tRNA-Phe c[16872,16947] 34 (gaa)
+[21:21:21] 4 tRNA-Met [27475,27551] 35 (cat)
+[21:21:21] 5 tRNA-Ser c[70191,70280] 35 (tga)
+[21:21:21] 6 tRNA-Ser [70335,70426] 35 (gct)
+[21:21:21] 1 tRNA-Cys [23814,23888] 33 (gca)
+[21:21:21] 1 tRNA-Arg c[10836,10912] 35 (tct)
+[21:21:21] 2 tRNA-Ile c[25039,25115] 35 (gat)
+[21:21:21] 3 tRNA-Leu c[43276,43363] 34 (taa)
+[21:21:21] 4 tRNA-Gly [44050,44124] 34 (gcc)
+[21:21:21] 5 tRNA-Gly [46933,47007] 34 (ccc)
+[21:21:21] 1 tRNA-Glu c[4455,4529] 34 (ctc)
+[21:21:21] 1 tRNA-Gln [4591,4665] 33 (ctg)
+[21:21:21] Found 38 tRNAs
+[21:21:21] Predicting Ribosomal RNAs
+[21:21:21] Running Barrnap with 8 threads
