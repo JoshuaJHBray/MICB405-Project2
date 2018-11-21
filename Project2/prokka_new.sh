@@ -25,15 +25,15 @@ do
 	$sample	
 done
 
-#Concatenate all of the .faa and .fna outputs for KAAS and indexing
+#Concatenate all of the .faa and .ffn outputs for KAAS and indexing
 
 cat project2/prokka_output/*/MAG*.faa >> project2/prokka_cat/allMAGs.faa
-cat project2/prokka_output/*/MAG*.fna >> project2/prokka_cat/allMAGs.fna
+cat project2/prokka_output/*/MAG*.ffn >> project2/prokka_cat/allMAGs.ffn
 
 #Index the concatenated reference for the metatranscriptome analysis
 
 bwa index -p ~/project2/BWA_output/allMAGs_index \
-/project2/prokka_cat/allMAGs.fna
+project2/prokka_cat/allMAGs.ffn
 
 echo done indexing allMAGs... 
 
@@ -59,7 +59,7 @@ do
 	cruise=$(echo $SI | sed 's/_allMAGs.sam//;s/.*\///')
 	echo Running RPKM on $cruise
 	/projects/micb405/resources/project_2/2018/rpkm \
-	-c ~/project2/prokka_cat/allMAGs.fna \
+	-c ~/project2/prokka_cat/allMAGs.ffn \
 	-a ~/project2/BWA_output/${cruise}_allMAGs.sam \
 	-o ~/project2/RPKM_outputs/${cruise}_allMAGs_RPKM.csv
 	echo Done RPKM normalizing ${cruise}
