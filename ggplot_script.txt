@@ -1,0 +1,35 @@
+library(tidyverse)
+
+#ggplot
+raw_dat <- read_csv("Saanich_TimeSeries_Chemical_DATA.csv")
+dat <-
+  raw_dat %>%
+  select(Depth, SI, PO4, NO3, Mean_NH4, Mean_NO2, 
+Mean_H2S, Mean_N2, Mean_O2, Mean_co2, Mean_N2O, Mean_CH4)
+
+dat %>%
+  select(Depth, NO3, Mean_NH4, Mean_NO2, Mean_N2, Mean_N2O) %>%
+  gather(key="Chemical", value="Concentration", -Depth) %>%
+  
+  ggplot(aes(x=Concentration, y=Depth, shape=Chemical, color=Chemical)) +
+  geom_point() +
+  scale_y_reverse(limits=c(200, 0)) +
+  facet_wrap(~Chemical, scales="free_x")
+
+dat %>%
+  select(Depth, PO4, SI) %>%
+  gather(key="Chemical", value="Concentration", -Depth) %>%
+  
+  ggplot(aes(x=Concentration, y=Depth, shape=Chemical, color=Chemical)) +
+  geom_point() +
+  scale_y_reverse(limits=c(200, 0)) +
+  facet_wrap(~Chemical, scales="free_x")
+
+dat %>%
+  select(Depth, Mean_H2S, Mean_O2, Mean_co2) %>%
+  gather(key="Chemical", value="Concentration", -Depth) %>%
+  
+  ggplot(aes(x=Concentration, y=Depth, shape=Chemical, color=Chemical)) +
+  geom_point() +
+  scale_y_reverse(limits=c(200, 0)) +
+  facet_wrap(~Chemical, scales="free_x")
