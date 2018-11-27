@@ -1,35 +1,232 @@
 library(tidyverse)
+library(cowplot)
 
-#ggplot
+#ggplot1
+#NO3
+raw_dat <- read_csv("Saanich_TimeSeries_Chemical_DATA.csv")
+
+dat <-
+  raw_dat %>%
+  filter(Depth %in% 200 & !is.na(NO3) & NO3!="NAN" & NO3!="ND") %>%
+  select(Date, Depth, SI, PO4, NO3, Mean_NH4, Mean_NO2, 
+Mean_H2S, Mean_N2, Mean_O2, Mean_co2, Mean_N2O, Mean_CH4)
+
+dat$NO3=as.numeric(dat$NO3)
+colnames(dat)[colnames(dat)=="NO3"] <- "Mean NO3"
+
+p1<-dat %>%
+  select(Date, `Mean NO3`) %>%
+  gather(key="Chemical", value="Concentration", -Date) %>%
+  
+  ggplot(aes(x=Date, y=Concentration)) +
+  xlab("Date")+
+  ylab("Concentration (然)")+
+  facet_wrap(~Chemical, scales="free_y")+
+  geom_point(color="red") +
+  theme_bw()+
+  theme(legend.position="none")
+
+#NH4
+
 raw_dat <- read_csv("Saanich_TimeSeries_Chemical_DATA.csv")
 dat <-
   raw_dat %>%
-  select(Depth, SI, PO4, NO3, Mean_NH4, Mean_NO2, 
-Mean_H2S, Mean_N2, Mean_O2, Mean_co2, Mean_N2O, Mean_CH4)
+  filter(Depth %in% 200) %>%
+  filter(!is.na(Mean_NH4)) %>%
+  select(Date, Depth, SI, PO4, NO3, Mean_NH4, Mean_NO2, 
+         Mean_H2S, Mean_N2, Mean_O2, Mean_co2, Mean_N2O, Mean_CH4)
 
-dat %>%
-  select(Depth, NO3, Mean_NH4, Mean_NO2, Mean_N2, Mean_N2O) %>%
-  gather(key="Chemical", value="Concentration", -Depth) %>%
-  
-  ggplot(aes(x=Concentration, y=Depth, shape=Chemical, color=Chemical)) +
-  geom_point() +
-  scale_y_reverse(limits=c(200, 0)) +
-  facet_wrap(~Chemical, scales="free_x")
+colnames(dat)[colnames(dat)=="Mean_NH4"] <- "Mean NH4"
 
-dat %>%
-  select(Depth, PO4, SI) %>%
-  gather(key="Chemical", value="Concentration", -Depth) %>%
+p2<-dat %>%
+  select(Date, `Mean NH4`) %>%
+  gather(key="Chemical", value="Concentration", -Date) %>%
   
-  ggplot(aes(x=Concentration, y=Depth, shape=Chemical, color=Chemical)) +
-  geom_point() +
-  scale_y_reverse(limits=c(200, 0)) +
-  facet_wrap(~Chemical, scales="free_x")
+  ggplot(aes(x=Date, y=Concentration, shape=Chemical, colour=Chemical)) +
+  xlab("Date")+
+  ylab("Concentration (然)")+
+  geom_point(color="blue") +
+  facet_wrap(~Chemical, scales="free_y")+
+  theme_bw()+
+  theme(legend.position="none")
 
-dat %>%
-  select(Depth, Mean_H2S, Mean_O2, Mean_co2) %>%
-  gather(key="Chemical", value="Concentration", -Depth) %>%
+#NO2
+
+raw_dat <- read_csv("Saanich_TimeSeries_Chemical_DATA.csv")
+dat <-
+  raw_dat %>%
+  filter(Depth %in% 200) %>%
+  filter(!is.na(Mean_NO2)) %>%
+  select(Date, Depth, SI, PO4, NO3, Mean_NH4, Mean_NO2, 
+         Mean_H2S, Mean_N2, Mean_O2, Mean_co2, Mean_N2O, Mean_CH4)
+
+colnames(dat)[colnames(dat)=="Mean_NO2"] <- "Mean NO2"
+
+p3<-dat %>%
+  select(Date, `Mean NO2`) %>%
+  gather(key="Chemical", value="Concentration", -Date) %>%
   
-  ggplot(aes(x=Concentration, y=Depth, shape=Chemical, color=Chemical)) +
-  geom_point() +
-  scale_y_reverse(limits=c(200, 0)) +
-  facet_wrap(~Chemical, scales="free_x")
+  ggplot(aes(x=Date, y=Concentration, shape=Chemical, colour=Chemical)) +
+  xlab("Date")+
+  ylab("Concentration (然)")+
+  geom_point(color="darkgreen") +
+  facet_wrap(~Chemical, scales="free_y")+
+  theme_bw()+
+  theme(legend.position="none")
+
+#N2
+
+raw_dat <- read_csv("Saanich_TimeSeries_Chemical_DATA.csv")
+dat <-
+  raw_dat %>%
+  filter(Depth %in% 200) %>%
+  filter(!is.na(Mean_N2)) %>%
+  select(Date, Depth, SI, PO4, NO3, Mean_NH4, Mean_NO2, 
+         Mean_H2S, Mean_N2, Mean_O2, Mean_co2, Mean_N2O, Mean_CH4)
+
+colnames(dat)[colnames(dat)=="Mean_N2"] <- "Mean N2"
+
+p4<-dat %>%
+  select(Date, `Mean N2`) %>%
+  gather(key="Chemical", value="Concentration", -Date) %>%
+  
+  ggplot(aes(x=Date, y=Concentration, shape=Chemical, colour=Chemical)) +
+  xlab("Date")+
+  ylab("Concentration (然)")+
+  geom_point(color="orange") +
+  facet_wrap(~Chemical, scales="free_y")+
+  theme_bw()+
+  theme(legend.position="none")
+
+#N2O
+
+raw_dat <- read_csv("Saanich_TimeSeries_Chemical_DATA.csv")
+dat <-
+  raw_dat %>%
+  filter(Depth %in% 200) %>%
+  filter(!is.na(Mean_N2O)) %>%
+  select(Date, Depth, SI, PO4, NO3, Mean_NH4, Mean_NO2, 
+         Mean_H2S, Mean_N2, Mean_O2, Mean_co2, Mean_N2O, Mean_CH4)
+
+colnames(dat)[colnames(dat)=="Mean_N2O"] <- "Mean N2O"
+
+p5<-dat %>%
+  select(Date, `Mean N2O`) %>%
+  gather(key="Chemical", value="Concentration", -Date) %>%
+  
+  ggplot(aes(x=Date, y=Concentration, shape=Chemical, colour=Chemical)) +
+  xlab("Date")+
+  ylab("Concentration (然)")+
+  geom_point(color="purple") +
+  facet_wrap(~Chemical, scales="free_y")+
+  theme_bw()+
+  theme(legend.position="none")
+
+#ggplot1
+
+p <- plot_grid(p1, p2, p3, p4, p5, labels=c("A", "B", "C", "D", "E"), align="h", axis="tb")
+
+p
+
+#ggplot2
+#H2S
+raw_dat <- read_csv("Saanich_TimeSeries_Chemical_DATA.csv")
+dat <-
+  raw_dat %>%
+  filter(Depth %in% 200) %>%
+  filter(!is.na(Mean_H2S)) %>%
+  select(Date, Depth, SI, PO4, NO3, Mean_NH4, Mean_NO2, 
+         Mean_H2S, Mean_N2, Mean_O2, Mean_co2, Mean_N2O, Mean_CH4)
+
+colnames(dat)[colnames(dat)=="Mean_H2S"] <- "Mean H2S"
+
+p1<-dat %>%
+  select(Date, `Mean H2S`) %>%
+  gather(key="Chemical", value="Concentration", -Date) %>%
+  
+  ggplot(aes(x=Date, y=Concentration)) +
+  geom_point(color="purple") +
+  xlab("Date")+
+  ylab("Concentration (然)")+
+  facet_wrap(~Chemical, scales="free_y")+
+  theme_bw()+
+  theme(legend.position="none")
+
+#N2
+
+raw_dat <- read_csv("Saanich_TimeSeries_Chemical_DATA.csv")
+dat <-
+  raw_dat %>%
+  filter(Depth %in% 200) %>%
+  filter(!is.na(Mean_N2)) %>%
+  select(Date, Depth, SI, PO4, NO3, Mean_NH4, Mean_NO2, 
+         Mean_H2S, Mean_N2, Mean_O2, Mean_co2, Mean_N2O, Mean_CH4)
+
+colnames(dat)[colnames(dat)=="Mean_N2"] <- "Mean N2"
+
+p2<-dat %>%
+  select(Date, `Mean N2`) %>%
+  gather(key="Chemical", value="Concentration", -Date) %>%
+  
+  ggplot(aes(x=Date, y=Concentration)) +
+  geom_point(color="darkgreen") +
+  xlab("Date")+
+  ylab("Concentration (然)")+
+  facet_wrap(~Chemical, scales="free_y")+
+  theme_bw()+
+  theme(legend.position="none")
+
+#NO3
+
+raw_dat <- read_csv("Saanich_TimeSeries_Chemical_DATA.csv")
+dat <-
+  raw_dat %>%
+  filter(Depth %in% 200 & !is.na(NO3) & NO3!="NAN" & NO3!="ND") %>%
+  select(Date, Depth, SI, PO4, NO3, Mean_NH4, Mean_NO2, 
+         Mean_H2S, Mean_N2, Mean_O2, Mean_co2, Mean_N2O, Mean_CH4)
+
+dat$NO3=as.numeric(dat$NO3)
+
+colnames(dat)[colnames(dat)=="NO3"] <- "Mean NO3"
+
+p3<-dat %>%
+  select(Date, `Mean NO3`) %>%
+  gather(key="Chemical", value="Concentration", -Date) %>%
+  
+  ggplot(aes(x=Date, y=Concentration, shape=Chemical, colour=Chemical)) +
+  geom_point(color="blue") +
+  xlab("Date")+
+  ylab("Concentration (然)")+
+  facet_wrap(~Chemical, scales="free_y")+
+  theme_bw()+
+  theme(legend.position="none")
+
+#O2
+
+raw_dat <- read_csv("Saanich_TimeSeries_Chemical_DATA.csv")
+dat <-
+  raw_dat %>%
+  filter(Depth %in% 200) %>%
+  filter(!is.na(Mean_O2)) %>%
+  select(Date, Depth, SI, PO4, NO3, Mean_NH4, Mean_NO2, 
+         Mean_H2S, Mean_N2, Mean_O2, Mean_co2, Mean_N2O, Mean_CH4)
+
+colnames(dat)[colnames(dat)=="Mean_O2"] <- "Mean O2"
+
+p4<-dat %>%
+  select(Date, `Mean O2`) %>%
+  gather(key="Chemical", value="Concentration", -Date) %>%
+  
+  ggplot(aes(x=Date, y=Concentration, shape=Chemical, colours=Chemical)) +
+  geom_point(color="red") +
+  xlab("Date")+
+  ylab("Concentration (然)")+
+  facet_wrap(~Chemical, scales="free_y")+
+  theme_bw()+
+  theme(legend.position="none")
+
+#ggplot2
+
+p <- plot_grid(p1, p2, p3, p4, labels=c("A", "B", "C", "D"), align="h", axis="tb")
+
+p
