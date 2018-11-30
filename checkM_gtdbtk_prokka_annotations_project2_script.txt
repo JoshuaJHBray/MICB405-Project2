@@ -1,0 +1,83 @@
+#!/bin/bash
+
+mkdir ~/project2/gtdbtk_edit
+cp /projects/micb405/resources/project_2/2018/SaanichInlet_200m/MetaBAT2_SaanichInlet_200m/gtdbtk_output/*classification_pplacer.tsv ~/project2/gtdbtk_edit
+
+#isolate phylum in bacterial samples
+for f in ~/project2/gtdbtk_edit/gtdbtk.bac120.classification_pplacer.tsv
+do
+	sed -i 's/d__Bacteria;p__//g' $f
+	sed -i 's/;c.*//g' $f
+done
+
+#isolate phylum in archaeal samples
+for f in ~/project2/gtdbtk_edit/gtdbtk.ar122.classification_pplacer.tsv
+do
+	sed -i 's/d__Archaea;p__//g' $f
+	sed -i 's/;c.*//g' $f
+done
+
+#prokka annotation
+cat ~/project2/prokka_output/SaanichInlet_200m*/MAG*.txt >> ~/project2/prokka_cat/all_MAGs.txt
+
+#load into R/desktop using GitBash
+scp username@orca-wg.bcgsc.ca:/home/username/project2/gtdbtk_edit/*classification_pplacer.tsv ~/Desktop/Project_2
+scp username@orca-wg.bcgsc.ca:/projects/micb405/resources/project_2/2018/SaanichInlet_200m/MetaBAT2_SaanichInlet_200m/MetaBAT2_SaanichInlet_200m_min1500_checkM_stdout.tsv ~/Desktop/Project_2
+scp username@orca-wg.bcgsc.ca:/home/username/project2/prokka_cat/all_MAGs.txt ~/Desktop/Project_2
+
+######RSTUDIO#######
+
+#load packages
+
+library(tidyverse)
+
+library(ggpubr)
+
+
+#read CheckM table
+
+checkM <- read_tsv("MetaBAT2_SaanichInlet_200m_min1500_checkM_stdout.tsv")
+
+
+#read Archaea gtdbtk output table
+
+arctable <- read_tsv("gtdbtk.ar122.classification_pplacer.tsv", col_names = FALSE)
+
+
+#read Bacteria gtdbtk output table
+
+bactable <- read_tsv("gtdbtk.bac120.classification_pplacer.tsv", col_names = FALSE)
+
+
+#add column names, merge bacteria and archaea gtdbtk data
+
+colnames(arctable) <- c("Bin Id","Phylum")
+
+colnames(bactable) <- c("Bin Id","Phylum")
+
+bacarc <- rbind(arctable,bactable)
+
+
+#merge gtdbtk and checkM data by bin ID for all bins
+
+merged_checkM <- merge(bacarc,checkM,by="Bin Id",all=TRUE)
+
+
+#merge gtdbtk and checkM data by bin ID for medium/high quality bins
+
+merged_hq <- merge(bacarc,checkM,by="Bin Id")
+
+
+#create scatterplot object with indications for contamination and high quality (all bins)
+
+checkM_all <- merged_checkM %>% ggplot(aes(x=Completeness, y=Contamination, color=Phylum)) + geom_point() + labs(x="Completeness (%)",y="Contamination (%)") + geom_rect(aes(xmin=90, xmax=100, ymin=0, ymax=5), fill="white", color="red", size=0.7, alpha=0.001) + coord_cartesian(ylim=c(0,30)) + geom_hline(yintercept=c(5, 10), linetype="dotted") + theme_bw() + theme(axis.line = element_line(colour = "black"), panel.border = element_blank(), panel.background = element_blank()) + theme(legend.position="bottom")
+
+
+#create scatterplot object with indications for contamination and high quality (med/high quality bins)
+
+checkM_hq <- merged_hq %>% ggplot(aes(x=Completeness, y=Contamination, color=Phylum)) + geom_point() + labs(x="Completeness (%)",y="Contamination (%)") + geom_rect(aes(xmin=90, xmax=100, ymin=0, ymax=5), fill="white", color="red", size=0.7, alpha=0.001) + coord_cartesian(ylim=c(0,30)) + geom_hline(yintercept=c(5, 10), linetype="dotted") + theme_bw() + theme(axis.line = element_line(colour = "black"), panel.border = element_blank(), panel.background = element_blank()) + theme(legend.position="bottom")
+
+
+#combine two plots with common legend
+
+ggarrange(checkM_all, checkM_hq, widths = c(1.3, 2), common.legend=TRUE, legend="bottom")
